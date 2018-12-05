@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-dic-2018, 12:32:34
+    Author     : Kokekui
+*/
+.header{grid-area:header; width: 100%;};
+.menu-secon{grid-area:menu-secon;width: 100%;};
+.l-landing-page__container{grid-area:container;width: 100%;};
+.footer{grid-area:footer;width: 100%;};
+
+.grid{
+    display:grid;
+}
+
+.grid-pagina{
+    grid-template-areas:'header header header'
+        'menu-secon container container'
+        'menu-secon footer footer';
+}
