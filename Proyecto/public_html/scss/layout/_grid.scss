@@ -17,7 +17,7 @@ and open the template in the editor.
 }
 
 .grid-pagina{
-    grid-template-areas:'header header header'
-        'menu-secon container container'
-        'menu-secon footer footer';
+    grid-template-areas:'header header header header header header '
+        'menu-secon container container container container container'
+        'footer footer footer footer footer footer';
 }

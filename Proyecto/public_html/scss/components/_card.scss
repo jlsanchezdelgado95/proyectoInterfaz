@@ -7,6 +7,12 @@ and open the template in the editor.
     Created on : 04-dic-2018, 13:06:47
     Author     : Kokekui
 */
-.image{
-    justify-content: center;
+.card{
+    font-size: 14px;
+    display: inline;
+    position: relative;
+}
+.card__item{
+    margin: 0 auto;
+    display: inline;
 }
